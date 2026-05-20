@@ -1,76 +1,395 @@
-# Clean Architecture - Sistema de Alquiler de Vehículos
+<div align="center">
 
-## 📋 Descripción
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/744/744465.png" />
 
-Sistema de alquiler de vehículos desarrollado con .NET 8 siguiendo los principios de Clean Architecture. La aplicación permite gestionar la reserva de vehículos, usuarios, y reseñas con un diseño modular y escalable.
+# 🚗 CleanDrive Architecture
 
-## 🏗️ Arquitectura
+### Plataforma empresarial de alquiler de vehículos con Clean Architecture y .NET 8 ⚡
 
-El proyecto está estructurado siguiendo los principios de Clean Architecture con las siguientes capas:
+<p align="center">
+  <b>CleanDrive Architecture</b> es un sistema moderno de gestión de alquiler de vehículos desarrollado bajo los principios de Clean Architecture, enfocado en escalabilidad, mantenibilidad y arquitectura empresarial.
+</p>
 
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
+  <img src="https://img.shields.io/badge/Clean_Architecture-DD0031?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Swagger-API_Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
+</p>
+
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
+
+</div>
+
+---
+
+# 🚗 Acerca del proyecto
+
+**CleanDrive Architecture** es una plataforma backend empresarial diseñada para la administración de alquiler de vehículos, reservas, usuarios y reseñas utilizando una arquitectura limpia y modular basada en principios SOLID y patrones empresariales modernos.
+
+El sistema fue desarrollado para:
+
+- 🚘 Gestionar vehículos y disponibilidad
+- 📅 Administrar reservas de alquiler
+- 👥 Gestionar usuarios del sistema
+- ⭐ Administrar reseñas y calificaciones
+- 💰 Calcular precios dinámicos
+- 📊 Mantener control transaccional
+- ⚡ Implementar arquitectura empresarial escalable
+
+La aplicación demuestra buenas prácticas avanzadas de desarrollo backend utilizando .NET 8 y Clean Architecture.
+
+---
+
+# ✨ Características
+
+## 🚘 Gestión de vehículos
+
+- 🚗 Catálogo de vehículos
+- 📅 Disponibilidad por fechas
+- 📦 Gestión de accesorios
+- ⚡ Control dinámico de reservas
+- 📊 Estado de disponibilidad
+
+---
+
+## 📅 Sistema de alquileres
+
+- 📝 Reservas de vehículos
+- ⚡ Validaciones de negocio
+- 🚫 Prevención de conflictos
+- 📊 Gestión de estados
+- 💰 Cálculo automático de costos
+
+---
+
+## 👥 Gestión de usuarios
+
+- 👤 Administración de usuarios
+- 📋 Gestión de perfiles
+- 🔐 Seguridad y autenticación
+- ⚡ Operaciones seguras
+- 📊 Relación con alquileres
+
+---
+
+## ⭐ Sistema de reseñas
+
+- 📝 Comentarios post-alquiler
+- ⭐ Calificaciones de servicio
+- 📊 Evaluaciones de experiencia
+- 🚘 Opiniones de vehículos
+- ⚡ Gestión de feedback
+
+---
+
+## 💰 Sistema de precios
+
+- 💵 Precios dinámicos
+- 📦 Cálculo con accesorios
+- 📊 Tarifas automáticas
+- ⚡ Reglas de negocio
+- 🧾 Gestión financiera
+
+---
+
+## 📊 Arquitectura empresarial
+
+- 🧱 Clean Architecture
+- ⚡ CQRS con MediatR
+- 🛡️ Repository Pattern
+- 🔄 Unit of Work
+- 📦 Specification Pattern
+
+---
+
+# 👨‍💻 Módulos del sistema
+
+## 🚘 Vehicle Management Module
+
+Sistema de administración de vehículos.
+
+### Funcionalidades:
+
+- 🚗 Gestión de vehículos
+- 📅 Disponibilidad
+- 📦 Accesorios
+- 📊 Estados operativos
+- ⚡ Control de inventario
+
+---
+
+## 📅 Rental Management Module
+
+Gestión de alquileres y reservas.
+
+### Funcionalidades:
+
+- 📝 Reservaciones
+- ⚡ Validaciones
+- 📊 Gestión de estados
+- 💰 Cálculo de precios
+- 🚫 Prevención de conflictos
+
+---
+
+## 👥 User Management Module
+
+Administración de usuarios.
+
+### Funcionalidades:
+
+- 👤 Gestión de perfiles
+- 🔐 Seguridad
+- 📋 Información de usuarios
+- ⚡ Control administrativo
+
+---
+
+## ⭐ Review Management Module
+
+Sistema de reseñas y comentarios.
+
+### Funcionalidades:
+
+- ⭐ Calificaciones
+- 📝 Comentarios
+- 📊 Feedback del servicio
+- 🚘 Opiniones de vehículos
+
+---
+
+## 📊 Analytics & Business Module
+
+Módulo analítico empresarial.
+
+### Funcionalidades:
+
+- 📈 Métricas operativas
+- 📊 Tracking de alquileres
+- 💰 Reportes financieros
+- ⚡ Estadísticas del sistema
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=dotnet,cs" />
+</p>
+
+- .NET 8
+- ASP.NET Core Web API
+- Arquitectura modular
+- APIs REST
+- Principios SOLID
+
+---
+
+## ⚙️ Arquitectura y patrones
+
+<p>
+  <img src="https://skillicons.dev/icons?i=visualstudio" />
+</p>
+
+- Clean Architecture
+- CQRS
+- MediatR
+- Repository Pattern
+- Unit of Work
+- Domain Events
+- Specification Pattern
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgresql" />
+</p>
+
+- PostgreSQL
+- Entity Framework Core
+- Dapper
+- Migraciones
+- Optimistic Concurrency
+- Persistencia relacional
+
+---
+
+## 🔐 Seguridad y validaciones
+
+<p>
+  <img src="https://skillicons.dev/icons?i=swagger" />
+</p>
+
+- FluentValidation
+- Middleware de excepciones
+- Swagger/OpenAPI
+- Validaciones automáticas
+- Seguridad transaccional
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio" />
+</p>
+
+- Git
+- GitHub
+- VS Code
+- Visual Studio 2022
+- Bogus Seeder
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
 src/CleanArchitecture/
-├── CleanArchitecture.Domain/          # Entidades de dominio y lógica de negocio
-├── CleanArchitecture.Application/     # Casos de uso y lógica de aplicación
-├── CleanArchitecture.Infrastructure/  # Implementaciones de persistencia y servicios externos
-└── CleanArchitecture.Api/            # Capa de presentación (Web API)
+│
+├── CleanArchitecture.Domain/
+│   ├── Entities/
+│   ├── ValueObjects/
+│   ├── Events/
+│   └── Interfaces/
+│
+├── CleanArchitecture.Application/
+│   ├── Behaviors/
+│   ├── Features/
+│   ├── Commands/
+│   ├── Queries/
+│   └── Validators/
+│
+├── CleanArchitecture.Infrastructure/
+│   ├── Persistence/
+│   ├── Repositories/
+│   ├── Services/
+│   └── Configurations/
+│
+├── CleanArchitecture.Api/
+│   ├── Controllers/
+│   ├── Middleware/
+│   ├── Extensions/
+│   └── appsettings.json
+│
+├── README.md
+└── LICENSE
 ```
 
-### Capas de la Arquitectura
+---
 
-- **Domain**: Contiene las entidades principales (Alquiler, Vehículo, Usuario, Review), value objects, eventos de dominio y interfaces de repositorios.
-- **Application**: Implementa casos de uso utilizando CQRS con MediatR, validaciones con FluentValidation, y manejo de comportamientos transversales.
-- **Infrastructure**: Implementa la persistencia con Entity Framework Core, configuraciones de base de datos, y servicios externos.
-- **Api**: Expone endpoints REST, manejo de excepciones, y configuración de la aplicación.
+# 🏗️ Arquitectura del sistema
 
-## 🛠️ Tecnologías Utilizadas
+## ⚡ Arquitectura Clean Architecture
 
-- **.NET 8**
-- **Entity Framework Core 7.0.11** con PostgreSQL
-- **MediatR** para implementar CQRS
-- **FluentValidation** para validaciones
-- **Dapper** para consultas de solo lectura
-- **Bogus** para generación de datos de prueba
-- **Swagger/OpenAPI** para documentación de la API
+```text
+API → Application → Domain ← Infrastructure
+```
 
-## 🚀 Características Principales
+---
 
-### Funcionalidades del Sistema
+## 🔄 Flujo operativo
 
-- **Gestión de Vehículos**: Búsqueda de vehículos disponibles por fechas
-- **Reservas de Alquiler**: Creación y gestión de reservas con validaciones de negocio
-- **Gestión de Usuarios**: Manejo de información de usuarios
-- **Sistema de Reseñas**: Calificaciones y comentarios post-alquiler
-- **Cálculo de Precios**: Sistema dinámico de precios con accesorios
+```text
+Usuario → Reserva → Validación → Disponibilidad → Confirmación → Alquiler
+```
 
-### Patrones Implementados
+---
 
-- **CQRS** (Command Query Responsibility Segregation)
-- **Domain Events** para comunicación entre agregados
-- **Repository Pattern** para abstracción de datos
-- **Unit of Work** para transacciones
-- **Specification Pattern** para consultas complejas
+# 📊 Funcionalidades principales
 
-## 📦 Instalación y Configuración
+## 🚘 Vehículos
 
-### Prerrequisitos
+- Gestión de catálogo
+- Disponibilidad dinámica
+- Accesorios configurables
+- Estados operativos
+
+---
+
+## 📅 Reservas
+
+- Creación de alquileres
+- Validaciones de negocio
+- Prevención de conflictos
+- Gestión de estados
+
+---
+
+## 💰 Precios
+
+- Cálculo dinámico
+- Tarifas automáticas
+- Gestión de accesorios
+- Reglas empresariales
+
+---
+
+## 📈 Administración
+
+- CQRS empresarial
+- Eventos de dominio
+- Persistencia desacoplada
+- Arquitectura escalable
+
+---
+
+# 🔐 Seguridad
+
+## 🛡️ Protección del sistema
+
+- 🔒 Validaciones automáticas
+- ⚡ Middleware de excepciones
+- 🛡️ Control transaccional
+- 🚫 Prevención de inconsistencias
+- 📋 Validaciones de negocio
+- 🔐 Arquitectura desacoplada
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
 
 - .NET 8 SDK
 - PostgreSQL
 - Visual Studio 2022 o VS Code
+- Git
 
-### Configuración
+---
 
-1. **Clonar el repositorio**
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
 
 ```bash
 git clone <repository-url>
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
 cd CleanArchitecture
 ```
 
-2. **Configurar la base de datos**
+---
 
-Actualizar la cadena de conexión en `appsettings.json`:
+## 3️⃣ Configurar base de datos
+
+Editar `appsettings.json`
 
 ```json
 {
@@ -80,106 +399,151 @@ Actualizar la cadena de conexión en `appsettings.json`:
 }
 ```
 
-3. **Aplicar migraciones**
+---
+
+## 4️⃣ Aplicar migraciones
 
 ```bash
 cd src/CleanArchitecture/CleanArchitecture.Api
 dotnet ef database update
 ```
 
-4. **Ejecutar la aplicación**
+---
+
+## 5️⃣ Ejecutar aplicación
 
 ```bash
 dotnet run
 ```
 
-La aplicación estará disponible en `http://localhost:9000`
+---
 
-## 🔧 Estructura del Proyecto
+## 6️⃣ Abrir API
 
-### Domain Layer
+```bash
+http://localhost:9000
+```
 
-**Entidades Principales:**
+---
 
-- `Alquiler`: Gestiona las reservas de vehículos
-- `Vehiculo`: Información de vehículos y disponibilidad
-- `User`: Datos de usuarios del sistema
-- `Review`: Reseñas y calificaciones
+# 📸 Vista previa
 
-**Value Objects:**
+## 🖥️ Interfaces del sistema
 
-- `DateRange`: Manejo de períodos de tiempo
-- `Moneda`: Representación de valores monetarios
-- `Direccion`: Información de ubicación
+<div align="center">
 
-### Application Layer
+### 📊 Swagger API Documentation
+![Swagger](https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200)
 
-**Casos de Uso:**
+### 🚘 Gestión de vehículos
+![Vehicles](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200)
 
-- `ReservarAlquiler`: Proceso completo de reserva
-- `GetAlquiler`: Consulta de información de alquileres
-- `SearchVehiculos`: Búsqueda de vehículos disponibles
+### 📅 Sistema de reservas
+![Bookings](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200)
 
-**Comportamientos Transversales:**
+### 🧱 Arquitectura empresarial
+![Architecture](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200)
 
-- `LoggingBehavior`: Registro de actividades
-- `ValidationBehavior`: Validaciones automáticas
+</div>
 
-### Infrastructure Layer
+---
 
-**Persistencia:**
+# 👥 Roles del sistema
 
-- Configuraciones de Entity Framework
-- Repositorios concretos
-- Migraciones de base de datos
+| Rol | Nivel |
+|---|---|
+| 👑 Admin | Acceso completo |
+| 👨‍💼 Manager | Supervisión |
+| 👤 User | Reservas y reseñas |
+| 🚘 Operator | Gestión operativa |
+| 📊 Analyst | Reportes y métricas |
 
-**Servicios:**
+---
 
-- `EmailService`: Notificaciones (implementación mock)
-- `DateTimeProvider`: Abstracción de tiempo
-- `SqlConnectionFactory`: Conexiones para Dapper
+# 🧠 Objetivos del proyecto
 
-## 📊 Base de Datos
+## 🎯 Arquitectura y aprendizaje
 
-### Tablas Principales
+- Clean Architecture
+- Desarrollo backend empresarial
+- CQRS y MediatR
+- Persistencia desacoplada
+- Diseño modular
+- Arquitectura escalable
+- Buenas prácticas .NET
 
-- **users**: Información de usuarios
-- **vehiculos**: Catálogo de vehículos disponibles
-- **alquileres**: Registros de reservas y alquileres
-- **reviews**: Reseñas y calificaciones
+---
 
-### Características de la BD
+# 🚧 Roadmap
 
-- Uso de snake_case para nomenclatura
-- Optimistic concurrency control
-- Índices para consultas frecuentes
-- Soporte para arrays (accesorios del vehículo)
+## 🔮 Próximas mejoras
 
-## 🌐 API Endpoints
+- 📱 Aplicación móvil
+- ☁️ Cloud deployment
+- 🔔 Notificaciones en tiempo real
+- 🤖 IA para recomendaciones
+- 📊 Dashboard avanzado
+- 🌐 Multi-language support
+- 💳 Integración de pagos online
 
-### Alquileres
+---
 
-- `GET /api/alquileres/{id}` - Obtener alquiler por ID
-- `POST /api/alquileres` - Crear nueva reserva
+# 🤝 Contribuciones
 
-### Vehículos
+Las contribuciones son bienvenidas ❤️
 
-- `GET /api/vehiculos` - Buscar vehículos disponibles
-  - Query parameters: `startDate`, `endDate`
+## Cómo contribuir
 
-## 🧪 Datos de Prueba
+1. Fork del proyecto
 
-La aplicación incluye un seeder que genera automáticamente 100 vehículos de prueba con datos realistas usando la librería Bogus.
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
 
-## 🔒 Validaciones y Reglas de Negocio
+2. Commit
 
-- Validación de fechas de reserva (inicio < fin)
-- Verificación de disponibilidad de vehículos
-- Cálculo automático de precios con accesorios
-- Manejo de estados de alquiler (Reservado, Confirmado, Completado, etc.)
-- Control de concurrencia para evitar dobles reservas
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
 
-## 🚦 Manejo de Errores
+3. Push
 
-- Middleware personalizado para excepciones
-- Validaciones con FluentValidation
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Desarrollador
+
+<div align="center">
+
+## Backend & Clean Architecture Developer
+
+Desarrollador apasionado por arquitecturas empresariales, sistemas escalables y desarrollo backend moderno 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source orientado al aprendizaje de Clean Architecture, CQRS y desarrollo backend empresarial con .NET 8.
+
+---
+
+<div align="center">
+
+### 🚗 CleanDrive Architecture — arquitectura limpia para sistemas de alquiler ⚡
+
+</div>
