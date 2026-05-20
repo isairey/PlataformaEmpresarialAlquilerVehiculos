@@ -426,27 +426,6 @@ http://localhost:9000
 
 ---
 
-# 📸 Vista previa
-
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 📊 Swagger API Documentation
-![Swagger](https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200)
-
-### 🚘 Gestión de vehículos
-![Vehicles](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200)
-
-### 📅 Sistema de reservas
-![Bookings](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200)
-
-### 🧱 Arquitectura empresarial
-![Architecture](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200)
-
-</div>
-
----
 
 # 👥 Roles del sistema
 
