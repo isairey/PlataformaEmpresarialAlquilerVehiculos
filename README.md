@@ -256,7 +256,7 @@ Módulo analítico empresarial.
 # 📂 Estructura del proyecto
 
 ```bash
-src/CleanArchitecture/
+src/PlataformaEmpresarialAlquilerVehiculos/
 │
 ├── CleanArchitecture.Domain/
 │   ├── Entities/
@@ -374,7 +374,7 @@ Usuario → Reserva → Validación → Disponibilidad → Confirmación → Alq
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/isairey/PlataformaEmpresarialAlquilerVehiculos
 ```
 
 ---
@@ -382,7 +382,7 @@ git clone <repository-url>
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd CleanArchitecture
+cd PlataformaEmpresarialAlquilerVehiculos
 ```
 
 ---
@@ -520,7 +520,7 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Backend & Clean Architecture Developer
+## Isai Reyes - Backend & Clean Architecture Developer
 
 Desarrollador apasionado por arquitecturas empresariales, sistemas escalables y desarrollo backend moderno 🚀
 
